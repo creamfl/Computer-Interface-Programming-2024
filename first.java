@@ -4,7 +4,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.time.Instant;
 
-public class Main {
+public class first {
     public static void main(String[] args) {
         String fileName = "uniqueFile_" + Instant.now().getEpochSecond() + ".txt";
         File file = new File(fileName);
