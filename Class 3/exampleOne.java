@@ -1,3 +1,5 @@
+public class exampleOne{
+public static void main(String[] args){
 ThreadGroup rootGroup = Thread.currentThread().getThreadGroup();
         ThreadGroup parentGroup;
         while ((parentGroup = rootGroup.getParent()) != null) {
@@ -23,3 +25,5 @@ ThreadGroup rootGroup = Thread.currentThread().getThreadGroup();
         }
         }
         }
+}
+}
